@@ -1,0 +1,79 @@
+@media screen and (max-width:1400px){
+    .menu{
+        width: 14% !important;
+    }
+    .menu ul li a{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:1200px){
+    .menu{
+        width: 17% !important;
+    }
+    .menu ul li a{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:992px){
+    .menu{
+        width: 22% !important;
+    }
+    .menu ul li a{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:768px){
+    .menu{
+        width: 26% !important;
+    }
+    .menu .portrait img{
+        width: 40px;
+    }
+    .menu ul li a{
+        font-size: 12px;
+    }
+    .menu-end .icons{
+        margin-left: 38px;
+    }
+}
+@media screen and (max-width:576px){
+    .menu{
+        width:  30% !important;
+    }
+    .menu .portrait img{
+        width: 30px;
+    }
+    .menu ul li a{
+        font-size: 10px;
+    }
+    .menu-end .icons{
+        margin-left: 34px;
+    }
+    .menu-end .icons .icoons{
+        margin: 4px;
+    }
+    .menu-end .copy p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:420px){
+    .menu{
+        width:  30% !important;
+    }
+    .menu .portrait img{
+        width: 30px;
+    }
+    .menu ul li a{
+        font-size: 8px;
+    }
+    .menu-end .icons{
+        margin-left: 22px;
+        font-size: 12px;
+    }
+    .menu-end .icons .icoons{
+        margin: 4px;
+    }
+    .menu-end .copy p{
+        font-size: 8px;
+    }
+}

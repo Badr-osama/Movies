@@ -1,0 +1,143 @@
+body{
+    background: black;
+}
+/* Start section navbar */
+  .menu-btn {
+    position: absolute;
+    z-index: 3;
+    right: 35px;
+    top: 35px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+.menu-btn .btn-line {
+    width: 28px;
+    height: 3px;
+    margin: 0 0 5px 0;
+    background: white;
+    transition: all 0.5s ease-out;
+}
+.menu-btn.close {
+    transform: rotate(180deg);
+}
+.menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0;
+}
+.menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+.menu {
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 12%;
+    height: 100%;
+    opacity: 0.9;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menu.show {
+    visibility: visible;
+}
+.menu-branding{
+    padding: 30px 45px;
+}
+header nav ul{
+    padding: 0;
+}
+header nav ul li{
+    list-style: none;
+}
+.menu-end .icons{
+    margin-left: 50px;
+}
+.menu-end .icons .icoons{
+    margin: 8px;
+}
+.menu-end .copy{
+    padding-top: 10px;
+}
+.menu-end .copy p{
+    font-size: 12px;
+}
+
+.nav-item:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.nav-item:nth-child(2) {
+    transition-delay: 0.2s;
+}
+
+.nav-item:nth-child(3) {
+    transition-delay: 0.3s;
+}
+
+.nav-item:nth-child(4) {
+    transition-delay: 0.4s;
+}
+/* End section navbar */
+
+/* Start section content */
+#movies input{
+    background: black;
+    font-size: 10px;
+    padding: 10px;
+}
+.content1 div img{
+    width: 100%;
+}
+.content1 .parent-div{
+    position: relative;
+    display: block;
+}
+.content1 .parent-div .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    background: rgba(255,255,255,0.5);
+    transition: all .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 10px;
+}
+.content1:hover .parent-div .overlay{
+    height: 100%;
+}
+.content1 .parent-div .overlay h4{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.content1 .parent-div .overlay h5{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+/* End section content */
+
+/* Start section contact */
+#contact input{
+    background: black;
+    font-size: 10px;
+    padding: 10px;
+}
+#contact button{
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+/* End section contact */

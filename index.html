@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Movies</title>
+</head>
+<body id="bg-img" class="py-5">
+    
+    <!-- Start section navbar -->
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+ 
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait">
+                    <img src="image/logo.png"alt="" />
+                </div>
+            </div>
+ 
+            <ul class="menu-nav">
+                <li class="nav-item current">
+                    <a href="#" class="nav-link text-dark nowPlaying">
+                        Now Playing
+                    </a>
+                </li>
+ 
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark popular">
+                        Popular
+                    </a>
+                </li>
+ 
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark topRated">
+                        Top Rated
+                    </a>
+                </li>
+ 
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-dark trending">
+                        Trending
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#contactUs" class="nav-link text-dark">
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+
+            <div class="menu-end">
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f icoons"></i>
+                    <i class="fa-brands fa-twitter icoons"></i>
+                    <i class="fa-solid fa-globe icoons"></i>
+                </div>
+                <div class="copy">
+                    <p class="text-center">Copyright Â© 2019 All Rights Reserved.</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End section navbar -->
+
+    <!-- Start section content -->
+    <section id="movies">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-6">
+                    <div class="s-word">
+                        <input type="search" class="form-control text-center" placeholder="Get movies by word...">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="search">
+                        <input type="search" class="form-control text-center searchMovie" placeholder="Search...">
+                    </div>
+                </div>
+              <div class="row mv">
+                <!-- <div class="col-lg-4 col-md-6">
+
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/rkpLvPDe0ZE62buUS32exdNr7zD.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/neMZH82Stu91d3iqvLdNQfqPPyl.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/4Q1n3TwieoULnuaztu9aFjqHDTI.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/4zsihgkxMZ7MrflNCjkD3ySFJtc.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/6JjfSchsU6daXk2AKX8EEBjO3Fm.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/8Kce1utfytAG5m1PbtVoDzmDZJH.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/aqhLeieyTpTUKPOfZ3jzo2La0Mq.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/bxHZpV02OOu9vq3sb3MsOudEnYc.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/cpWUtkcgRKeauhTyVMjYHxAutp4.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/fVf4YHHkRfo1uuljpWBViEGmaUQ.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/mVVU9zC8snNHlcqYONY2HOsh9ob.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/qk1ZERG6yhwAJqTobmDgw8jRL2C.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/rJHC1RUORuUhtfNb4Npclx0xnOf.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/rugyJdeoJm7cSJL1q4jBpTNbxyU.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/u6Pg9eTklhg6Aa7kXaxrfdE1Chi.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/u9DzgsmssidygWuORgYzhi317vj.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="content1 mt-5">
+                        <div class="parent-div">
+                            <img src="image/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg">
+                            <div class="overlay">
+                                <h3>Doctor Strange in the Multiverse of Madness</h3>
+                                <h4>Doctor Strange, with the help of mystical allies both old and new, traverses the mind-bending and dangerous alternate realities of the Multiverse to confront a mysterious new adversary.</h4>
+                                <h5>rate: 7.6</h5>
+                                <p>2022-05-04</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- End section content -->
+
+    <!-- Start section contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="text-white">Contact us</h1>
+                <div class="col-6">
+                    <div class="write mt-4">
+                        <input type="text" class="form-control text-center name" placeholder="Enter Your Name">
+                        <p class="nameError d-none bg-info bg-opacity-75 p-1 text-center">Name is not valided</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="write mt-4">
+                        <input type="email" class="form-control text-center email" placeholder="Enter Your Email">
+                        <p class="emailError d-none bg-info bg-opacity-75 p-1 text-center">Email is not valided</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="write mt-3">
+                        <input type="text" class="form-control text-center age" placeholder="Enter Your Age">
+                        <p class="ageError d-none bg-info bg-opacity-75 p-1 text-center">Age is not valided</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="write mt-3">
+                        <input type="number" class="form-control text-center phone" placeholder="Enter Your Phone">
+                        <p class="phoneError d-none bg-info bg-opacity-75 p-1 text-center">Phone is not valided</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="write mt-3">
+                        <input type="password" class="form-control text-center password" placeholder="Enter Password">
+                        <p class="passwordError d-none bg-info bg-opacity-75 p-1 text-center">password is not valided</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="write mt-3">
+                        <input type="password" class="form-control text-center rePassword" placeholder="Enter RePassword">
+                        <p class="rePasswordError d-none bg-info bg-opacity-75 p-1 text-center">rePassword is not valided</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-danger">Submit</button>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End section contact -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
